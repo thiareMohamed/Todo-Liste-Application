@@ -2,7 +2,7 @@
 
 body
 {
-    background-color: #D8D8D8;
+    background-color: #f3f3f3;
     font-family: 'Sen', sans-serif;
 }
 
@@ -39,6 +39,23 @@ header nav div a
     background-position: left;
     background-position-x: 15px;
     padding-left: 70px;
+}
+@media screen and (max-width:990px) {
+    .recherche
+    {
+        width: 354px;
+        height: 56px;
+        background: #FFFFFF;
+        border: 1px solid rgba(216, 216, 216, 0.69);
+        box-sizing: border-box;
+        box-shadow: 0px 0px 4px rgba(176, 176, 176, 0.25);
+        border-radius: 11px;
+        background-image: url(../img/loup.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-x: 15px;
+        padding-left: 70px;
+    }  
 }
 .filtre
 {
@@ -89,7 +106,7 @@ header nav div a
 {
     width: 85%;
     height: 0px;
-    border: 1px solid #c0c0c011;
+    border: 1px solid #DEDEDE;
 }
 .resumer
 {
@@ -102,12 +119,103 @@ header nav div a
 }
 .nbr-resumer
 {
-
-width: 95px;
-height: 24px;
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-color: #000000;
+    width: 95px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.titre-resumer
+{
+    width: 115px;
+    height: 24px;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.color-priorite
+{
+    width: 50px;
+    height: 24px;
+    background: #CE0033;
+    border-radius: 5px;
+}
+.date-tache
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.titre-tache
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.etat-tache
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #555555;
+}
+.description-tache
+{
+    background: #FFFFFF;
+    border: 1px solid rgba(216, 216, 216, 0.69);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(176, 176, 176, 0.25);
+    border-radius: 5px;
+    width: 100%;
+}
+.tache-terminer
+{
+    background: rgba(255, 255, 255, 0.29);
+    border: 1px solid #00BD62;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(176, 176, 176, 0.25);
+    border-radius: 5px;
+    color: #00BD62;
+}
+.tache-supprimer
+{
+    background: rgba(255, 255, 255, 0.22);
+    border: 1px solid rgba(206, 0, 51, 0.92);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(176, 176, 176, 0.25);
+    border-radius: 5px;
+}
+.espace-carte
+{
+    padding: 30px;
+}
+.tache
+{
+    background: #FFFFFF;
+    border: 1px solid rgba(216, 216, 216, 0.69);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(176, 176, 176, 0.25);
+    border-radius: 10px;
+    width: 35%;
+    padding: 30px;
+}
+@media screen and (max-width:990px) {
+    .tache
+    {
+        background: #FFFFFF;
+        border: 1px solid rgba(216, 216, 216, 0.69);
+        box-sizing: border-box;
+        box-shadow: 0px 0px 4px rgba(176, 176, 176, 0.25);
+        border-radius: 10px;
+        width: 100%;
+        padding: 30px;
+    } 
 }
